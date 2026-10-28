@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTestSuite]">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="RT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ProjectModuleTest.ProjectTest">
+        <methods>
+          <include name="deleteProjectTest"/>
+        </methods>
+      </class> <!-- ProjectModuleTest.ProjectTest -->
+      <class name="EmployeeModuleTest.CreateEmployee">
+        <methods>
+          <include name="deleteEmployee"/>
+        </methods>
+      </class> <!-- EmployeeModuleTest.CreateEmployee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionTestSuite] -->
